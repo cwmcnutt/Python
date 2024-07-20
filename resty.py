@@ -4,12 +4,12 @@ import requests
 import json
 from pprint import pprint
 
-# Replace these variables with your router's details
+# HOST CREDS
 router_ip = "172.16.1.31"
 username = "cisco"
 password = "cisco"
 
-# Disable warnings about insecure connections
+# Disable warnings
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
 #REST API
